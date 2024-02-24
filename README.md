@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async-inmap/tags). For example,
+
+```javascript
 import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.1-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
 ```
 
 #### inmapAsync( collection, \[options,] fcn, done )
@@ -393,7 +398,7 @@ The function accepts the same `options` as `inmapAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.1-esm/index.mjs';
+import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
