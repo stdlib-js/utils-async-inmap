@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-09-02)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8000](https://github.com/stdlib-js/stdlib/issues/8000)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,8 @@
 
 <details>
 
+-   [`57b828d`](https://github.com/stdlib-js/stdlib/commit/57b828d10a9b20f3003482557132723a79d27c66) - **chore:** fix JavaScript lint errors [(#8003)](https://github.com/stdlib-js/stdlib/pull/8003) _(by DUDHAT HEMIL PRAVINKUMAR, Athan Reines)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +38,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   DUDHAT HEMIL PRAVINKUMAR
 -   Philipp Burckhardt
 
 </section>
