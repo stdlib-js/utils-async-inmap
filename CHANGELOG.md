@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2026-01-26)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#8000](https://github.com/stdlib-js/stdlib/issues/8000)
+[#8000](https://github.com/stdlib-js/stdlib/issues/8000), [#9851](https://github.com/stdlib-js/stdlib/issues/9851)
 
 </section>
 
@@ -24,8 +24,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`fbf9b05`](https://github.com/stdlib-js/stdlib/commit/fbf9b05485f4e55d549c1da242c01e39972dd2ac) - **chore:** resolve lint errors [(#9853)](https://github.com/stdlib-js/stdlib/pull/9853) _(by Om-A-osc, Athan Reines)_
 -   [`6bb3c64`](https://github.com/stdlib-js/stdlib/commit/6bb3c64c915bb33715e5256fa8073e46b9a4d443) - **docs:** update examples in TSDoc comments in `utils/async` for doctesting _(by Philipp Burckhardt)_
--   [`57b828d`](https://github.com/stdlib-js/stdlib/commit/57b828d10a9b20f3003482557132723a79d27c66) - **chore:** fix JavaScript lint errors [(#8003)](https://github.com/stdlib-js/stdlib/pull/8003) _(by DUDHAT HEMIL PRAVINKUMAR, Athan Reines)_
+-   [`57b828d`](https://github.com/stdlib-js/stdlib/commit/57b828d10a9b20f3003482557132723a79d27c66) - **chore:** fix JavaScript lint errors [(#8003)](https://github.com/stdlib-js/stdlib/pull/8003) _(by Dudhat Hemil Pravinkumar, Athan Reines)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
@@ -39,10 +40,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   DUDHAT HEMIL PRAVINKUMAR
+-   Dudhat Hemil Pravinkumar
+-   Om-A-osc
 -   Philipp Burckhardt
 
 </section>
