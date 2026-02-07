@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
+import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.3-esm/index.mjs';
 ```
 
 #### inmapAsync( collection, \[options,] fcn, done )
@@ -393,7 +393,7 @@ The function accepts the same `options` as `inmapAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@esm/index.mjs';
+import inmapAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-inmap@v0.2.3-esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
